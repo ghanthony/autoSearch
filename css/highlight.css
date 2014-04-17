@@ -1,14 +1,11 @@
-.ma6174-highlight{
-    color:red !important;
-    background-color:yellow !important;
+.hl-highlight{
+    background-color:#9F79EE;
 }
-#ma6174-tip{
-    position:absolute;
-    width:60px;
-    height:40px;
+.hl-highlight-0{
+    background-color:#00FF7F !important;
 }
-#ma6174-tip a{
-    color:green;
-    font-size:10px;
-    line-height: 16px;
+.hl-highlight-1{
+    background-color:#00EEEE !important;
 }
+.hl-highlight-2{
+    background-color:#00BFFF !important;
