@@ -1,4 +1,6 @@
-﻿chrome.runtime.onMessage.addListener(
+﻿chrome.storage.local.remove('keywords');
+
+chrome.runtime.onMessage.addListener(
   function(request, sender, sendResponse) {
     if(request.func=="multiHighlight"){
         var keywords = request.arg;
